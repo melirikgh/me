@@ -1,5 +1,5 @@
 /* IMG */
-$(".id_img").each(function(){$(this).replaceWith('<div class="text-center"><img '+imgattr+' alt="'+$(this).data("a")+'" data-src="https://'+$(this).data("s")+'" width="'+$(this).data("w")+'" height="'+$(this).data("h")+'"/></div>')});
+$(".id_img").each(function(){$(this).replaceWith('<div class="text-center"><img loading="lazy" class="lazyload p-e_n" oncontextmenu="return false" alt="'+$(this).data("a")+'" data-src="https://'+$(this).data("s")+'" width="'+$(this).data("w")+'" height="'+$(this).data("h")+'"/></div>')});
 /* */
 $(document).ready(function(){$("#flippy").click(function(){$("#flippanel").slideToggle("normal")})});
 /* Double Click */
