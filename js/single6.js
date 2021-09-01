@@ -1,5 +1,6 @@
-/* IMG */
-$(".id_img").each(function(){$(this).replaceWith('<div class="text-center"><img loading="lazy" class="lazyload p-e_n" alt="'+$(this).data("a")+'" src="https://'+$(this).data("s")+'" width="'+$(this).data("w")+'" height="'+$(this).data("h")+'" oncontextmenu="return false"/></div>')});
+/* BP */
+var bpalt = document.querySelector('title').innerText;
+$(".bpimg").each(function(){$(this).replaceWith('<div class="text-center"><img loading="lazy" class="lazyload p-e_n" alt="'+bpalt+'" data-src="https://1.bp.blogspot.com/'+$(this).data("s")+'/s0-rw/'+bpalt+'.'+$(this).data("f")+'" width="'+$(this).data("w")+'" height="'+$(this).data("h")+'" oncontextmenu="return false"/></div>')});
 
 $(document).ready(function(){$("#flippy").click(function(){$("#flippanel").slideToggle("normal")})});
 
