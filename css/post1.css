@@ -1,0 +1,10 @@
+/* Share Button */
+.frshare{background:#4285f4;border:none}
+.frshare svg{margin:3px 0 0}
+/* Share Link */
+.s_link input{width:50%}
+.s_linkbutton{background:#647d96;color:#fff;padding:10px;border:none;cursor:pointer}
+.tooltip{position:relative;display:inline-block}
+.tooltip .tooltiptext{visibility:hidden;width:140px;background-color:#647d96;color:#fff;text-align:center;border-radius:5px;padding:5px;position:absolute;z-index:1;bottom:150%;left:50%;margin-left:-75px;opacity:0;transition:opacity .3s}
+.tooltip .tooltiptext::after{content:"";position:absolute;top:100%;left:50%;margin-left:-5px;border-width:5px;border-style:solid;border-color:#647d96 transparent transparent transparent}
+.tooltip:hover .tooltiptext{visibility:visible;opacity:1;z-index:2}
