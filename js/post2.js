@@ -21,3 +21,7 @@ if (testButton.type != 'share') {
   });
 }
 }(this, this.document));
+/* Share Link
+var canonicalLink = document.querySelector('link[rel="canonical"]').getAttribute('href');
+$('<div class="s_link text-center"><input type="text" value="'+canonicalLink+'" id="s_linkInput" disabled><div class="tooltip"><button class="s_linkbutton" onclick="s_linkClick()" onmouseout="s_linkOut()"><span class="tooltiptext" id="s_linkTooltip">Copy to clipboard</span>Copy Link</button></div></div>').appendTo("#endofpost");
+function s_linkClick(){var e=document.getElementById("s_linkInput");e.select(),e.setSelectionRange(0,99999),navigator.clipboard.writeText(e.value),document.getElementById("s_linkTooltip").innerHTML="&#10003; Copied: "+e.value}function s_linkOut(){document.getElementById("s_linkTooltip").innerHTML="Copy to clipboard"}
