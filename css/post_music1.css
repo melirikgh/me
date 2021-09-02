@@ -16,5 +16,3 @@
 .listen_box a{display:block;color:rgba(0,0,0,.80)}
 .listen_box a:hover{background:#191414;color:#fff}
 .listen_box img{margin-top:3.5px;width:30px;height:30px;pointer-events:none}
-/* DISCLAIMER */
-.m_infokey{background:#ffeaa7;font-size:15px;padding:25px;margin:50px 0 0;border:3px solid rgba(0,0,0,0.05);border-radius:10px}
