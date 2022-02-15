@@ -1,8 +1,4 @@
 var lazyM = 'loading="lazy" class="lazyload p-e_n" oncontextmenu="return false"';
-var mtitle = document.querySelector("title").innerText;
-var thumb = document.querySelector('meta[property="og:image"]').getAttribute("content").replace(/.*?:\/\//g,"https://cdn.statically.io/img/");
-
-$('<div class="text-center"><img '+lazyM+' alt="'+mtitle+'" data-src="'+thumb+'" width="1280" height="720"/></div>').prependTo("#tablelagu");
 
 $(".sumberlirik").replaceWith('<div id="msource"><div class="msource_text">Sumber Lirik &#10095;</div><a href="https://www.google.com/url?sa=t&url=https%3A%2F%2Fwww.musixmatch.com" rel="nofollow noopener" target="_blank" title="Musixmatch"><img '+lazyM+' data-src="https://cdn.statically.io/img/hamdaniazzah.github.io/img/svg/musixmatch.svg"/></a></div>');
 
